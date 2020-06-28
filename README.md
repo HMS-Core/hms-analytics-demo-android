@@ -1,5 +1,6 @@
 # HMS AnalyticsKit Demo
 
+[![analytics](http://badges.github.io/hms-badges/dist/analytics.svg)](http://github.com/badges/hms-badges)
 
 ## Table of Contents
 
