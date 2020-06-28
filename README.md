@@ -1,6 +1,6 @@
 # HMS AnalyticsKit Demo
 
-[![analytics](http://badges.github.io/hms-badges/dist/analytics.svg)](http://github.com/badges/hms-badges)
+[![hms](https://img.shields.io/badge/hms-analytics-brightgreen)](https://developer.huawei.com/consumer/cn/doc/development/HMS-Guides/ml-introduction-4) 
 
 ## Table of Contents
 
