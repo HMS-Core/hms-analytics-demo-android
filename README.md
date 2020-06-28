@@ -1,4 +1,4 @@
-# HMS AnalyticsKit Demo
+# HMS AnalyticsKit Demo for Android
 
 [![hms](https://img.shields.io/badge/hms-analytics-brightgreen)](https://developer.huawei.com/consumer/en/doc/development/HMS-References/3021004) 
 
