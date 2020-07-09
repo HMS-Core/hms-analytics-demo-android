@@ -8,13 +8,13 @@
 * [Getting Started](#getting-started)
 * [Installation](#installation)
 * [Configuration ](#configuration )
-* [Supported Environments](#supported-environments)
+* [Environment requirements](#Environment-requirements)
 * [Result](#result)
 * [License](#license)
 
 
 ## Introduction
-HmsAnalyticsKitDemo is a app that applying HUAWEI Hianalytics SDK used for showing how to collect user engagement and user preference.
+Hmsanalyticskitdemo provides an example of integrating HUAWEI Analytics Kit with an app. It illustrates how to collect predefined events and custom events to improve user engagement and user preference.
 [Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5).
 
 ## Getting Started
@@ -25,27 +25,25 @@ For more development guidance, please refer to the links below:
 
 [API References](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/android-api-analytics-overview-0000001051067140-V5).
 
-We also provide an example to demonstrate the use of analytics SDK for Android.
+In this example, we demonstrate how to use the analytics SDK for Android by using the Gradle build system.
 
-This sample uses the Gradle build system.
+First download Hmsanalyticskitdemo by cloning this repository or downloading an archived snapshot.
 
-First download the demo by cloning this repository or downloading an archived snapshot.
+In Android Studio, click Open an existing Android Studio project, and select analytics-sample.
 
-In Android Studio, use the "Open an existing Android Studio project", and select the directory of "analytics-sample".
+You can use the gradlew build command to build the project directly.
 
-You can use the "gradlew build" command to build the project directly.
-
-You should create an app in AppGallery Connect, and obtain the file of agconnect-services.json and add to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to build.gradle. More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5).
+You should create an app in AppGallery Connect, and obtain the agconnect-services.json file and add it to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to the build.gradle file.  More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5).
 
 
 ## Installation
 Use Android Studio to open the decompressed project.
 
 ## Configuration
-1. Create an app in AppGallery Connect and obtain the project configuration file agconnect-services.json. In Android Studio, switch to the Project view and move the agconnect-services.json file to the root directory of the app-level module. 
-2. Change the value of applicationId in the build.gradle file of the app-level module to the name of the app package applied for in the preceding step.
+1. Create an app in AppGallery Connect and obtain the project configuration file agconnect-services.json. In Android Studio, switch to the Project view and move the agconnect-services.json file to the root directory of the app.
+2. Change the value of applicationId in the build.gradle file of the app to the name of the app package applied for in the preceding step.
 
-## Supported Environments
+## Environment requirements
 Hardware requirements:
 1. A computer (desktop or laptop)
 2. A Huawei phone, which is used to debug the developed app
@@ -61,13 +59,13 @@ After running the app you should see a screen like this:
 
 <img src="https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/master/images/screen_0.PNG" width=250 title="ID Photo DIY" div align=center border=5>
 
-Click the button TRUE or FALSE to answer the question; Click the NEXT, show the next question; Click POST SCORE, log the score user got. All the infomations will be upload to Hianalytics Console, and you can see these infomations in real time using Debug View.
+Click TRUE or FALSE to answer the question; Click NEXT to show the next question; Click POST SCORE, log the score user got. All the information will be uploaded to the Hianalytics Console, and you can see these information in real time using Debug View.
 
 Click button SETTINGS:
 
 <img src="https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/master/images/screen_1.PNG" width=250 title="ID Photo DIY" div align=center border=5>
 
-You will be asked what your favorite sport is. This choice will be logged to Hianalytics as a User Property.
+When you click SETTINGS, you will be asked for your favorite sport. Your choice will be logged by Hianalytics as a user attribute.
 
 ##  License
 HmsAnalyticsKitDemo is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
