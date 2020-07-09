@@ -14,7 +14,7 @@
 
 
 ## 简介
-    Hmsanalyticskitdemo提供了华为分析服务（HUAWEI Analytics Kit）与app集成的示例代码。其演示了如何通过收集预定义事件和自定义事件以提高用户参与度和用户偏好。
+Hmsanalyticskitdemo提供了华为分析服务（HUAWEI Analytics Kit）与app集成的示例代码。其演示了如何通过收集预定义事件和自定义事件以提高用户参与度和用户偏好。
 [了解更多有关Hianalytics的信息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5).
 
 ## 快速入门
@@ -37,22 +37,22 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 
 
 ## 安装
-    使用Android Studio打开解压后的工程。
+使用Android Studio打开解压后的工程。
 
 ## 配置
-    1. 在AppGallery Connect中创建应用，并获取项目配置文件agconnect-services.json。在Android Studio中，切换到Project视图，将agconnect-services.json文件移动到app的根目录下。 
-    2. 修改app的build.gradle文件中的applicationId为上一步申请的app包名。
+1. 在AppGallery Connect中创建应用，并获取项目配置文件agconnect-services.json。在Android Studio中，切换到Project视图，将agconnect-services.json文件移动到app的根目录下。 
+2. 修改app的build.gradle文件中的applicationId为上一步申请的app包名。
 
 ## 环境要求
-    硬件要求：
-    1. 电脑（台式机或笔记本）
-    2. 华为手机，用于应用调试
+硬件要求：
+1. 电脑（台式机或笔记本）
+2. 华为手机，用于应用调试
     
-    软件要求：
-    1. 华为分析服务5.0.1
-    2. 适配Android 4.4 KitKat（API Level 19）及以上版本的设备
-    3. Android Studio 
-    4. Java JDK 1.7（推荐使用1.8版本）
+软件要求：
+1. 华为分析服务5.0.1
+2. 适配Android 4.4 KitKat（API Level 19）及以上版本的设备
+3. Android Studio 
+4. Java JDK 1.7（推荐使用1.8版本）
 
 ## 操作结果
 运行该app后，您将会看到如下页面：
@@ -65,7 +65,6 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 <img src="images/screen_1.png" height="534" width="300" style="max-width:100%;">
 
 当点击SETTINGS按钮，您会被要求提供最喜欢的运动。您的选择将作为用户属性记录到Hianalytics中。
-
 
 ## 授权许可
 HmsAnalyticsKitDemo经过[Apache 2.0授权许可](http://www.apache.org/licenses/LICENSE-2.0).
