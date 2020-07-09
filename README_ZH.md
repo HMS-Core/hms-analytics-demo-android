@@ -2,6 +2,8 @@
 
 [![hms](https://img.shields.io/badge/hms-analytics-brightgreen)](https://developer.huawei.com/consumer/en/doc/development/HMS-References/3021004) 
 
+[English](https://github.com/HMS-Core/hms-ananlytics-demo-android) | 中文
+
 ## 目录
 
 * [简介](#简介)
