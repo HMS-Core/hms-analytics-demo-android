@@ -1,5 +1,6 @@
 # 华为分析服务Android SDK示例代码
 
+[![hms](https://img.shields.io/badge/hms-analytics-brightgreen)](https://developer.huawei.com/consumer/en/doc/development/HMS-References/3021004) 
 
 ## 目录
 
