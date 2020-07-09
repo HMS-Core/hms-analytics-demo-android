@@ -59,12 +59,12 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 ## 操作结果
 运行该app后，您将会看到如下页面：
 
-<img src="images/screen_0.png" height="534" width="300" style="max-width:100%;">
+<img src="https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/master/images/screen_0.PNG" width=250 title="ID Photo DIY" div align=center border=5>
 
 点击“TRUE”或“FALSE” 按钮进行答题；点击“NEXT” 按钮进入下一道题；点击“POST SCORE”按钮记录用户获得的分数。所有信息将被上传到Hianalytics控制台，您可以使用Debug View实时查看这些信息。
 
 点击SETTINGS按钮:
-<img src="images/screen_1.png" height="534" width="300" style="max-width:100%;">
+<img src="https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/master/images/screen_1.PNG" width=250 title="ID Photo DIY" div align=center border=5>
 
 当点击SETTINGS按钮，您会被要求提供最喜欢的运动。您的选择将作为用户属性记录到Hianalytics中。
 
