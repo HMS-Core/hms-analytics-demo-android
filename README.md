@@ -10,7 +10,7 @@ English | [中文](https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/
 * [Getting Started](#getting-started)
 * [Installation](#installation)
 * [Configuration ](#configuration )
-* [Environment requirements](#Environment-requirements)
+* [Environment requirements](#environment-requirements)
 * [Result](#result)
 * [License](#license)
 
