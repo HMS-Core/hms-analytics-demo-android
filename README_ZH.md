@@ -16,8 +16,7 @@
 
 
 ## 简介
-Hmsanalyticskitdemo提供了华为分析服务（HUAWEI Analytics Kit）与app集成的示例代码。其演示了如何通过收集预定义事件和自定义事件以提高用户参与度和用户偏好。
-[了解更多有关Hianalytics的信息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149).
+Hmsanalyticskitdemo提供了华为分析服务（HUAWEI Analytics Kit）与app集成的示例代码。其演示了如何通过收集预定义事件和自定义事件以提高用户参与度和用户偏好。[了解更多有关Hianalytics的信息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149)。
 
 ## 快速入门
 
@@ -35,7 +34,7 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 
 您可以直接运行gradlew build命令构建工程。
 
-您需要在AppGallery Connect中创建应用，获取agconnect-services.json文件，并将文件添加到项目中。此外，您还需要生成签名证书指纹，在项目中添加证书文件，并将配置添加到build.gradle文件中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-dev-process-0000001050163813).
+您需要在AppGallery Connect中创建应用，获取agconnect-services.json文件，并将文件添加到项目中。此外，您还需要生成签名证书指纹，在项目中添加证书文件，并将配置添加到build.gradle文件中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-dev-process-0000001050163813)。
 
 
 ## 安装
@@ -70,5 +69,5 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 当点击SETTINGS按钮，您会被要求提供最喜欢的运动。您的选择将作为用户属性记录到Hianalytics中。
 
 ## 授权许可
-HmsAnalyticsKitDemo经过[Apache 2.0授权许可](http://www.apache.org/licenses/LICENSE-2.0).
+HmsAnalyticsKitDemo经过[Apache 2.0授权许可](http://www.apache.org/licenses/LICENSE-2.0)。
 
