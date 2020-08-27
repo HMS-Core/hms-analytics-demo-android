@@ -18,6 +18,10 @@
         </activity>
         <activity android:name=".SettingActivity">
         </activity>
+        <meta-data
+            android:name="install_channel"
+            android:value="AppGallery">
+        </meta-data>
     </application>
 
 </manifest>
