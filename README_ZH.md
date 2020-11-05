@@ -50,7 +50,7 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 2. 华为手机，用于应用调试
     
 软件要求：
-1. 华为分析服务5.0.3
+1. 华为分析服务5.0.5
 2. 适配Android 4.4 KitKat（API Level 19）及以上版本的设备
 3. Android Studio 
 4. Java JDK 1.7（推荐使用1.8版本）
