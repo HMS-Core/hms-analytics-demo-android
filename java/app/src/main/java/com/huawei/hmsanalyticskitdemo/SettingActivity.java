@@ -44,10 +44,11 @@ public class SettingActivity extends AppCompatActivity {
         instance = HiAnalytics.getInstance(this);
 
         btnSave = (Button) findViewById(R.id.save_setting_button);
+        editFavorSport = (EditText) findViewById(R.id.edit_favoraite_sport);
+       
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                editFavorSport = (EditText) findViewById(R.id.edit_favoraite_sport);
                 strFavorSport = editFavorSport.getText().toString().trim();
                 // save favorite sport by user setUserProperty
                 instance.setUserProfile("favor_sport", strFavorSport);
