@@ -30,7 +30,7 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 
 首先，我们通过克隆此仓库或下载压缩包的方式来下载Hmsanalyticskitdemo。
 
-在Android Studio中，点击“Open an existing Android Studio project”，选择“analytics-sample”。
+在Android Studio中，点击“Open an existing Android Studio project”，选择“java”或者“kotlin”。
 
 您可以直接运行gradlew build命令构建工程。
 
