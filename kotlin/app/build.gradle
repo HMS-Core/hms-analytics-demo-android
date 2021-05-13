@@ -41,7 +41,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.core:core-ktx:1.0.2'
 
-    implementation 'com.huawei.hms:hianalytics:5.2.0.301'
+    implementation 'com.huawei.hms:hianalytics:5.3.0.300'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
