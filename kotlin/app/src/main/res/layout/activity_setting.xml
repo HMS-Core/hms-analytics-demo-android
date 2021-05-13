@@ -13,7 +13,7 @@
         android:text="Favoriate Sport:" />
 
     <EditText
-        android:id="@+id/edit_favoraite_sport"
+        android:id="@+id/edit_favorite_sport"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|center"
