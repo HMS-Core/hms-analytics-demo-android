@@ -53,7 +53,7 @@ Hardware requirements:
 2. A Huawei phone, which is used to debug the developed app
     
 Software requirements:
-1. HUAWEI Analytics Kit 5.2.0.301
+1. HUAWEI Analytics Kit 5.3.0.300
 2. Android SDK applicable to devices using Android 4.4 KitKat (API level 19) and later versions
 3. Android Studio 
 4. Java JDK 1.7 (JDK 1.8 is recommended.)
@@ -73,7 +73,7 @@ When you click SETTINGS, you will be asked for your favorite sport. Your choice 
 
 ## Question or issues
 If you want to evaluate more about HMS Core,
-[r/HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
+[HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
 
 If you have questions about how to use HMS samples, try the following options:
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
