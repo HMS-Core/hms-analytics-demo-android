@@ -17,19 +17,19 @@
 package com.huawei.hmsanalyticskitdemo;
 
 import android.content.Intent;
-import android.icu.text.SimpleDateFormat;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-//import classes from Analytics Kit
+// TODO: Import classes from Analytics Kit.
 import com.huawei.hms.analytics.HiAnalytics;
 import com.huawei.hms.analytics.HiAnalyticsInstance;
 import com.huawei.hms.analytics.HiAnalyticsTools;
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     private int score = 0;
 
 
-    //Define a var for Analytics Instance
+    // TODO: Define a variable for the Analytics Kit instance.
     HiAnalyticsInstance instance;
 
     @Override
@@ -67,11 +67,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Initiate Analytics Kit
-        // Enable Analytics Kit Log
+        // TODO: Initialize Analytics Kit.
+        // Enable Analytics Kit logging.
         HiAnalyticsTools.enableLog();
 
-        // Generate the Analytics Instance
+        // Generate an Analytics Kit instance.
         instance = HiAnalytics.getInstance(this);
 
         // You can also use Context initialization
@@ -134,42 +134,42 @@ public class MainActivity extends AppCompatActivity {
         if (answer == answers[curQuestionIdx]) {
             score = score + 20;
             Toast.makeText(this, R.string.correct_answer, Toast.LENGTH_SHORT).show();
-            // Report a customized Event
+            // Report a custom Event
 
         } else {
             Toast.makeText(this, R.string.wrong_answer, Toast.LENGTH_SHORT).show();
-            // Report a customized Event
+            // Report a custom Event
 
         }
         return answers[curQuestionIdx];
     }
 
     private void reportAnswerEvt(String answer) {
-        // Report a customzied Event
+        // TODO: Report a custom event.
         // Event Name: Answer
         // Event Parameters:
         //  -- question: String
-        //  -- answer:String
+        //  -- answer: String
         //  -- answerTime: String
 
-        // Initiate Parameters
+        // Initialize parameters.
         Bundle bundle = new Bundle();
         bundle.putString("question", txtQuestion.getText().toString().trim());
         bundle.putString("answer", answer);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
         bundle.putString("answerTime", sdf.format(new Date()));
 
-        // Report a preddefined Event
+        // Report a custom event.
         instance.onEvent("Answer", bundle);
     }
 
     private void postScore() {
-        // Report score by using SUBMITSCORE Event
-        // Initiate Parameters
+        // TODO: Report the score by using the SUBMITSCORE event.
+        // Initialize parameters.
         Bundle bundle = new Bundle();
         bundle.putLong(SCORE, score);
 
-        // Report a preddefined Event
+        // Report a predefined event.
         instance.onEvent(SUBMITSCORE, bundle);
     }
 }
