@@ -23,7 +23,7 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-// import classes from Analytics Kit
+// TODO: Import classes from Analytics Kit.
 import com.huawei.hms.analytics.HiAnalytics;
 import com.huawei.hms.analytics.HiAnalyticsInstance;
 
@@ -32,7 +32,7 @@ public class SettingActivity extends AppCompatActivity {
     private EditText editFavorSport;
     private String strFavorSport;
 
-    //Define a var for Analytics Instance
+    // TODO: Define a variable for the Analytics Kit instance.
     HiAnalyticsInstance instance;
 
     @Override
@@ -40,17 +40,17 @@ public class SettingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
 
-        // Genarate Analytics Kit Instance
+        // TODO: Generate an Analytics Kit instance.
         instance = HiAnalytics.getInstance(this);
 
         btnSave = (Button) findViewById(R.id.save_setting_button);
-        editFavorSport = (EditText) findViewById(R.id.edit_favoraite_sport);
+        editFavorSport = (EditText) findViewById(R.id.edit_favorite_sport);
        
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 strFavorSport = editFavorSport.getText().toString().trim();
-                // save favorite sport by user setUserProperty
+                // TODO: Set users' favorite sport using the setUserProfile API.
                 instance.setUserProfile("favor_sport", strFavorSport);
             }
         });
