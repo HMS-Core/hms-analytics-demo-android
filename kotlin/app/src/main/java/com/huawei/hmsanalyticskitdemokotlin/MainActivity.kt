@@ -1,17 +1,33 @@
+/*
+ * Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
 package com.huawei.hmsanalyticskitdemokotlin
 
 import android.content.Intent
-import android.icu.text.SimpleDateFormat
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+
+// TODO: Import classes from Analytics Kit.
 import com.huawei.hms.analytics.HiAnalytics
 import com.huawei.hms.analytics.HiAnalyticsInstance
 import com.huawei.hms.analytics.HiAnalyticsTools
 import com.huawei.hms.analytics.type.HAEventType.SUBMITSCORE
 import com.huawei.hms.analytics.type.HAParamType.SCORE
+
+import java.text.SimpleDateFormat
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -35,21 +51,21 @@ class MainActivity : AppCompatActivity() {
 
     private var score = 0
 
-    //Define a var for Analytics Instance
+    // TODO: Define a var for Analytics Instance.
     private lateinit var instance: HiAnalyticsInstance
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Initiate Analytics Kit
-        // Enable Analytics Kit Log
+        // TODO: Initiate Analytics Kit.
+        // Enable Analytics Kit logging.
         HiAnalyticsTools.enableLog()
 
-        // Generate the Analytics Instance
+        // Generate an Analytics Kit instance.
         instance = HiAnalytics.getInstance(this)
 
-        // You can also use Context initialization
+        // You can also use Context initialization.
         txtQuestion = findViewById(R.id.question_text_view)
         txtQuestion.setText(questions[curQuestionIdx])
 
@@ -93,25 +109,25 @@ class MainActivity : AppCompatActivity() {
         if (answer == answers[curQuestionIdx]) {
             score = score + 20
             Toast.makeText(this, R.string.correct_answer, Toast.LENGTH_SHORT).show()
-            // Report a customized Event
+            // Report a custom Event.
 
         } else {
             Toast.makeText(this, R.string.wrong_answer, Toast.LENGTH_SHORT).show()
-            // Report a customized Event
+            // Report a custom Event.
 
         }
         return answers[curQuestionIdx]
     }
 
     private fun reportAnswerEvt(answer: String) {
-        // Report a customzied Event
+        // TODO: Report a customzied Event.
         // Event Name: Answer
         // Event Parameters:
         //  -- question: String
-        //  -- answer:String
+        //  -- answer: String
         //  -- answerTime: String
 
-        // Initiate Parameters
+        // Initialize parameters.
         val bundle = Bundle()
         bundle.putString("question", txtQuestion.text.toString().trim())
         bundle.putString("answer", answer)
@@ -123,12 +139,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun postScore() {
-        // Report score by using SUBMITSCORE Event
-        // Initiate Parameters
+        // TODO: Report the score by using the SUBMITSCORE event.
+        // Initialize parameters.
         val bundle = Bundle()
         bundle.putLong(SCORE, score.toLong())
 
-        // Report a preddefined Event
+        // Report a predefined event.
         instance.onEvent(SUBMITSCORE, bundle)
     }
 }
