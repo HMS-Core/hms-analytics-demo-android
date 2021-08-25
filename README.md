@@ -37,7 +37,7 @@ In Android Studio, click Open an existing Android Studio project, and select "ja
 
 You can use the gradlew build command to build the project directly.
 
-You should create an app in AppGallery Connect, and obtain the agconnect-services.json file and add it to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to the build.gradle file.  More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5).
+You should create an app in AppGallery Connect, and obtain the agconnect-services.json file and add it to the project. More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5).
 
 
 ## Installation
@@ -53,7 +53,7 @@ Hardware requirements:
 2. A Huawei phone, which is used to debug the developed app
     
 Software requirements:
-1. HUAWEI Analytics Kit 5.3.1.300
+1. HUAWEI Analytics Kit 6.0.0.300
 2. Android SDK applicable to devices using Android 4.3 Jelly Bean (API level 18) and later versions
 3. Android Studio 
 4. Java JDK 1.7 (JDK 1.8 is recommended.)
