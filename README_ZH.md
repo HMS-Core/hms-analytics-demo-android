@@ -36,7 +36,7 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 
 您可以直接运行gradlew build命令构建工程。
 
-您需要在AppGallery Connect中创建应用，获取agconnect-services.json文件，并将文件添加到项目中。此外，您还需要生成签名证书指纹，在项目中添加证书文件，并将配置添加到build.gradle文件中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5)。
+您需要在AppGallery Connect中创建应用，获取agconnect-services.json文件，并将文件添加到项目中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5)。
 
 
 ## 安装
@@ -52,7 +52,7 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 2. 华为手机，用于应用调试
     
 软件要求：
-1. 华为分析服务5.3.1.300
+1. 华为分析服务6.0.0.300
 2. 适配Android 4.3 Jelly Bean（API Level 18）及以上版本的设备
 3. Android Studio 
 4. Java JDK 1.7（推荐使用1.8版本）
