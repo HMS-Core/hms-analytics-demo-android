@@ -2,7 +2,7 @@
 
 [![hms](https://img.shields.io/badge/hms-analytics-brightgreen)](https://developer.huawei.com/consumer/en/doc/development/HMS-References/3021004) 
 
-[English](https://github.com/HMS-Core/hms-ananlytics-demo-android) | 中文
+ 中文 | [English](README.md)
 
 ## 目录
 
@@ -16,7 +16,7 @@
 
 
 ## 简介
-Hmsanalyticskitdemo提供了华为分析服务（HUAWEI Analytics Kit）与app集成的示例代码。其演示了如何通过收集预定义事件和自定义事件以提高用户参与度和用户偏好。[了解更多有关Hianalytics的信息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5)。
+Hmsanalyticskitdemo提供了华为分析服务（HUAWEI Analytics Kit）与app集成的示例代码。其演示了如何通过收集预定义事件和自定义事件以提高用户参与度和用户偏好。[了解更多有关Hianalytics的信息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149)。
 
 该**Java**示例也可以通过HMS Toolkit快速启动运行，且支持各Kit一站式集成，并提供远程真机免费调测等功能。了解更多信息，请参考[HMS Toolkit官方链接](https://developer.huawei.com/consumer/cn/doc/development/Tools-Guides/getting-started-0000001077381096)。
 
@@ -24,9 +24,9 @@ Hmsanalyticskitdemo提供了华为分析服务（HUAWEI Analytics Kit）与app�
 
 更多开发指导，请参考以下链接文档：
 
-[开发指南](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5)。
+[开发指南](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-dev-process-0000001050163813)。
 
-[API参考](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/android-api-analytics-overview-0000001051067140-V5)。
+[API参考](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/android-api-analytics-overview-0000001051067140)。
 
 Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析服务SDK。
 
@@ -36,7 +36,7 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 
 您可以直接运行gradlew build命令构建工程。
 
-您需要在AppGallery Connect中创建应用，获取agconnect-services.json文件，并将文件添加到项目中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5)。
+您需要在AppGallery Connect中创建应用，获取agconnect-services.json文件，并将文件添加到项目中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-dev-process-0000001050163813)。
 
 
 ## 安装
@@ -50,7 +50,8 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 硬件要求：
 1. 电脑（台式机或笔记本）
 2. 华为手机，用于应用调试
-    
+   
+
 软件要求：
 1. 华为分析服务6.2.0.300
 2. 适配Android 4.3 Jelly Bean（API Level 18）及以上版本的设备
@@ -60,13 +61,13 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 ## 操作结果
 运行该app后，您将会看到如下页面：
 
-<img src="https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/master/images/screen_0.PNG" width=250 title="ID Photo DIY" div align=center border=5>
+<img src="images/screen_0.PNG" width=250 div align=center border=5>
 
 点击“TRUE”或“FALSE” 按钮进行答题；点击“NEXT” 按钮进入下一道题；点击“POST SCORE”按钮记录用户获得的分数。所有信息将被上传到Hianalytics控制台，您可以使用Debug View实时查看这些信息。
 
 点击SETTINGS按钮:
 
-<img src="https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/master/images/screen_1.PNG" width=250 title="ID Photo DIY" div align=center border=5>
+<img src="images/screen_1.PNG" width=250 div align=center border=5>
 
 当点击SETTINGS按钮，您会被要求提供最喜欢的运动。您的选择将作为用户属性记录到Hianalytics中。
 
@@ -74,7 +75,7 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 如果您对HMS Core还处于评估阶段，可在[Reddit社区](https://www.reddit.com/r/HuaweiDevelopers/)获取关于HMS Core的最新讯息，并与其他开发者交流见解。
 
 如果您对使用HMS示例代码有疑问，请尝试：
-- 开发过程遇到问题上[Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services)，在`huawei-mobile-services`标签下提问，有华为研发专家在线一对一解决您的问题。
+- 开发过程遇到问题上[Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services?tab=Votes)，在`huawei-mobile-services`标签下提问，有华为研发专家在线一对一解决您的问题。
 - 到[华为开发者论坛](https://developer.huawei.com/consumer/cn/forum/blockdisplay?fid=18) HMS Core板块与其他开发者进行交流。
 
 如果您在尝试示例代码中遇到问题，请向仓库提交[issue](https://github.com/HMS-Core/hms-ananlytics-demo-android/issues)，也欢迎您提交[Pull Request](https://github.com/HMS-Core/hms-ananlytics-demo-android/pulls)。

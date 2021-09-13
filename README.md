@@ -2,7 +2,7 @@
 
 [![hms](https://img.shields.io/badge/hms-analytics-brightgreen)](https://developer.huawei.com/consumer/en/doc/development/HMS-References/3021004) 
 
-English | [中文](https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/master/README_ZH.md)
+English | [中文](README_ZH.md)
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ English | [中文](https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/
 
 ## Introduction
 Hmsanalyticskitdemo provides an example of integrating HUAWEI Analytics Kit with an app. It illustrates how to collect predefined events and custom events to improve user engagement and user preference.
-[Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5).
+[Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050745149).
 
 You also can use HMS Toolkit to quickly integrate the kit and run the **Java** demo project, as well as debug the app using a remote device for free. For details, please visit [HMS Toolkit](https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/getting-started-0000001077381096).
 
@@ -25,9 +25,9 @@ You also can use HMS Toolkit to quickly integrate the kit and run the **Java** d
 
 For more development guidance, please refer to the links below:
 
-[Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5).
+[Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-dev-process-0000001050163813).
 
-[API References](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/android-api-analytics-overview-0000001051067140-V5).
+[API References](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/android-api-analytics-overview-0000001051067140).
 
 In this example, we demonstrate how to use the analytics SDK for Android by using the Gradle build system.
 
@@ -37,7 +37,7 @@ In Android Studio, click Open an existing Android Studio project, and select "ja
 
 You can use the gradlew build command to build the project directly.
 
-You should create an app in AppGallery Connect, and obtain the agconnect-services.json file and add it to the project. More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5).
+You should create an app in AppGallery Connect, and obtain the agconnect-services.json file and add it to the project. More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-dev-process-0000001050163813).
 
 
 ## Installation
@@ -51,7 +51,8 @@ Use Android Studio to open the decompressed project.
 Hardware requirements:
 1. A computer (desktop or laptop)
 2. A Huawei phone, which is used to debug the developed app
-    
+   
+
 Software requirements:
 1. HUAWEI Analytics Kit 6.2.0.300
 2. Android SDK applicable to devices using Android 4.3 Jelly Bean (API level 18) and later versions
@@ -61,13 +62,13 @@ Software requirements:
 ## Result
 After running the app you should see a screen like this:
 
-<img src="https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/master/images/screen_0.PNG" width=250 title="ID Photo DIY" div align=center border=5>
+<img src="images/screen_0.PNG" width=250 div align=center border=5>
 
 Click TRUE or FALSE to answer the question; Click NEXT to show the next question; Click POST SCORE, log the score user got. All the information will be uploaded to the Hianalytics Console, and you can see these information in real time using Debug View.
 
 Click button SETTINGS:
 
-<img src="https://github.com/HMS-Core/hms-ananlytics-demo-android/blob/master/images/screen_1.PNG" width=250 title="ID Photo DIY" div align=center border=5>
+<img src="images/screen_1.PNG" width=250 div align=center border=5>
 
 When you click SETTINGS, you will be asked for your favorite sport. Your choice will be logged by Hianalytics as a user attribute.
 
@@ -76,7 +77,7 @@ If you want to evaluate more about HMS Core,
 [HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
 
 If you have questions about how to use HMS samples, try the following options:
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services?tab=Votes) is the best place for any programming questions. Be sure to tag your question with 
 `huawei-mobile-services`.
 - [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101187876626530001) HMS Core Module is great for general questions, or seeking recommendations and opinions.
 
