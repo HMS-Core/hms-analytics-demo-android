@@ -54,7 +54,7 @@ Hardware requirements:
    
 
 Software requirements:
-1. HUAWEI Analytics Kit 6.2.0
+1. HUAWEI Analytics Kit 6.3.2
 2. Android SDK applicable to devices using Android 4.3 Jelly Bean (API level 18) and later versions
 3. Android Studio 
 4. JDK version: 1.8 or later
